@@ -5,7 +5,11 @@
 Amplify Params - DO NOT EDIT */
 
 exports.handler = async (event: any) => {
+  const isLocal = process.env.AWS_EXECUTION_ENV === 'AWS_Lambda_amplify-mock';
+
+  console.log('isLocal', isLocal);
   console.log('Hello World bla bla bla');
+
   // TODO implement
   const response = {
     statusCode: 200,
