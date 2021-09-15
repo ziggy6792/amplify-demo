@@ -14,7 +14,9 @@
     "categories": {
       "function": {
         "amplifydemosendnotification": {
-          "myEnvParam": "hello"
+          "myEnvParam": "hello",
+          "deploymentBucketName": "amplify-amplifydemo-dev-155125-deployment",
+          "s3Key": "amplify-builds/amplifydemosendnotification-4b6e564b66684a377833-build.zip"
         }
       }
     }
