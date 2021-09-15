@@ -37,8 +37,8 @@
       "function": {
         "amplifydemosendnotification": {
           "myEnvParam": "hello",
-          "deploymentBucketName": "amplify-amplifydemo-dev-155125-deployment",
-          "s3Key": "amplify-builds/amplifydemosendnotification-6d57756d726849474d58-build.zip"
+          "deploymentBucketName": "amplify-amplifydemo-prod-173704-deployment",
+          "s3Key": "amplify-builds/amplifydemosendnotification-2f423251424541533856-build.zip"
         }
       }
     }
