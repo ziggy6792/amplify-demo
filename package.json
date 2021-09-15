@@ -1,0 +1,44 @@
+{
+  "name": "amplify-demo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "lerna run --parallel watch",
+    "build": "lerna run --parallel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ziggy6792/amplify-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ziggy6792/amplify-demo/issues"
+  },
+  "homepage": "https://github.com/ziggy6792/amplify-demo#readme",
+  "dependencies": {
+    "@types/node": "^14.14.9",
+    "@typescript-eslint/eslint-plugin": "^4.7.0",
+    "@typescript-eslint/parser": "^4.7.0",
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "lerna": "^4.0.0",
+    "prettier-eslint": "^11.0.0",
+    "typescript": "^4.1.2"
+  },
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "amplify/backend/function/**/src",
+      "amplify/backend/function/**/lib/nodejs"
+    ],
+    "nohoist": [
+      "**"
+    ]
+  }
+}

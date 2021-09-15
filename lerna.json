@@ -1,0 +1,6 @@
+{
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "packages": ["amplify/backend/function/**/src", "amplify/backend/function/**/lib/nodejs"],
+  "version": "0.0.0"
+}
