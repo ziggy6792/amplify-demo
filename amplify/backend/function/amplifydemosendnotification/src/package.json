@@ -7,5 +7,9 @@
   "scripts": {
     "watch": "tsc -w",
     "build": "tsc"
+  },
+  "dependencies": {
+    "@types/node-telegram-bot-api": "^0.51.4",
+    "node-telegram-bot-api": "^0.54.0"
   }
 }
