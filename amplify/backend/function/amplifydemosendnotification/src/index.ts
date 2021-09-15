@@ -6,8 +6,10 @@ Amplify Params - DO NOT EDIT */
 
 exports.handler = async (event: any) => {
   const isLocal = process.env.AWS_EXECUTION_ENV === 'AWS_Lambda_amplify-mock';
+  const isProd = process.env.ENV === 'prod';
 
   console.log('isLocal', isLocal);
+  console.log('isProd', isProd);
   console.log('Hello World bla bla bla');
 
   // TODO implement
